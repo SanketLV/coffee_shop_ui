@@ -1,6 +1,8 @@
 import 'package:coffee_shop_ui/widgets/items_widget.dart';
 import 'package:flutter/material.dart';
 
+import '../widgets/home_bottom_bar.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
