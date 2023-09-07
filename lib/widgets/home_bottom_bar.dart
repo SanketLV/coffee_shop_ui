@@ -9,7 +9,7 @@ class HomeBottomBar extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 15),
       height: 80,
       decoration: BoxDecoration(
-        color: Color(0xFF212325),
+        color: const Color(0xFF212325),
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.4),

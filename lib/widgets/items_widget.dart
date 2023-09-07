@@ -5,7 +5,7 @@ import '../screens/single_item_screen.dart';
 
 class ItemsWidget extends StatelessWidget {
   ItemsWidget({super.key});
-  List img = [
+  final List img = [
     'Latte',
     'Espresso',
     'Black Coffee',
@@ -43,7 +43,7 @@ class ItemsWidget extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                         builder: (context) => SingleItemScreen(
-                          img[i],
+                          img: img[i],
                         ),
                       ),
                     );
